@@ -5,8 +5,8 @@ export const ProductCard = ({product}) => {
             <div className="product-card" >
               <img
                 src={product.image}
+                alt={product.image}
                 className="product-card-image"
-                alt="list-products"
               />
               <div className="product-card-content">
                 <h3 className="product-card-name">{product.name}</h3>
